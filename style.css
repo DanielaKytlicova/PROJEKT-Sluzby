@@ -60,6 +60,9 @@ p{
     padding: 10px;
 
 }
+.text2{
+    display: none;
+}
 
     @media screen  and (min-width: 640px) {
   .button{
@@ -73,20 +76,17 @@ p{
 
   }
 
- /*.ikony{
-    position: relative;
-    top: 20%;
-    left: 49%;
-    transform: translate(-50%, -0%);
 
+.icon {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
   }
-  .text{
-    flex-basis: 50%;
-padding-bottom: 90px;
-  }
- 
-
-*/
+  
+  .ikony {
+    max-width: 100%; 
+    max-height: 100%; 
+}
 }
 
 @media screen  and (min-width: 1100px){
@@ -105,13 +105,18 @@ body{
     float: left; 
 
   }
-
-
+.text2 {
+    display: block;
+}
+.text1{
+    display: none;
+}
   .druha{
     clear:both;
     display: flex;
     
   }
+
   .treti{
     display: flex;
   }
